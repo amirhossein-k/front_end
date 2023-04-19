@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  width: 502px;
+  height: 348px;
+  /* text-align: center; */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: aqua;
+  border-radius: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.app form{
+  padding: 25px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 1px solid ;
+}
+.app form .title{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.app form .file-input {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 10px;
+  /* flex: 1; */
+  /* border: 1px saddlebrown; */
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app form .submit{
+  padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 0;
+    margin: 5px;
+    cursor: pointer;
 }
+
+
+
